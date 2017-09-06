@@ -1,4 +1,4 @@
-#CV-Flask
+# CV-Flask
 
 This project is to create a website in which I can showcase my CV.
 
