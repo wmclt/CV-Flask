@@ -13,6 +13,7 @@ Here's a table of key-values relevant to this project:
 | technology    | Frozen-Flask    |
 | technology    | Flask-Flatpages |
 | useful | [markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)  |
+| useful | [interactive markdown](http://dillinger.io/) |
 | inspiration CSS | [bootstrap](https://blackrockdigital.github.io/startbootstrap-freelancer/) |
 | inspiration CSS | [Twilio](https://www.twilio.com/) |
 | free CSS templates | [Templated](https://templated.co/) |
@@ -51,3 +52,27 @@ Here's a table of key-values relevant to this project:
 * [Single page, scroll down](http://www.free-css.com/free-css-templates/page217/jwood-photography)
 * [See bottom, contact](https://templated.co/interphase)
 
+## USEFUL BASH COMMANDS
+Start Flask server:
+
+```sh
+$ python3 sitebuilder.py run
+```
+
+Build project:
+
+```sh
+$ python3 sitebuilder.py build
+```
+
+Run static project:
+
+```sh
+$ python3 -m http.server
+```
+
+Extra: Read Python documents on *localhost:4040*:
+
+```sh
+$ pydoc3 -p 4040
+```
