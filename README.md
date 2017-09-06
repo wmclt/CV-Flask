@@ -47,6 +47,7 @@ Here's a table of key-values relevant to this project:
 * (Future: blog?)
 
 ## SOME NICE CSS TEMPLATES
-* [All-in, really beautiful](https://pixelarity.com/items/demos/dimension/dark/index.html#)* [Single page, scroll down](http://www.free-css.com/free-css-templates/page217/jwood-photography)
+* [All-in, really beautiful](https://pixelarity.com/items/demos/dimension/dark/index.html#)
+* [Single page, scroll down](http://www.free-css.com/free-css-templates/page217/jwood-photography)
 * [See bottom, contact](https://templated.co/interphase)
 
