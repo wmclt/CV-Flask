@@ -28,7 +28,7 @@ Here's a table of key-values relevant to this project:
     * Containerisation (Kubernetes/Docker)
     * Compile CSS beforehand with e.g. LESS
     * Deploy on Raspberry Pi or host
-	* Blogging page to write about discoveries
+	* Blogging page to write about discoveries?
 
 ## DESIGN
 * Landing page
@@ -52,11 +52,40 @@ Here's a table of key-values relevant to this project:
 * [Single page, scroll down](http://www.free-css.com/free-css-templates/page217/jwood-photography)
 * [See bottom, contact](https://templated.co/interphase)
 
+## REQUIRED
+* Python 3
+* virtualenv
+* virtualenvwrapper
+
 ## USEFUL BASH COMMANDS
+Build environment:
+
+```sh
+$ pipenv install
+```
+
+Start virtual environment:
+
+```sh
+$ pipenv shell
+```
+
+Test if in virtual environment:
+
+```sh
+$ which python
+```
+
 Start Flask server:
 
 ```sh
 $ python3 sitebuilder.py run
+```
+
+Alternatively, run Flask server within virtual environment:
+
+```sh
+$ pipenv run python3 sitebuilder.py run
 ```
 
 Build project:
@@ -71,7 +100,7 @@ Run static project:
 $ python3 -m http.server
 ```
 
-Extra: Read Python documents on *localhost:4040*:
+*Extra*: Read Python documents on *localhost:4040*:
 
 ```sh
 $ pydoc3 -p 4040
