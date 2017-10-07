@@ -6,6 +6,7 @@ from flask_frozen import Freezer
 
 DEBUG = True
 FLATPAGES_AUTO_RELOAD = DEBUG
+FLATPAGES_MARKDOWN_EXTENSIONS = ['codehilite', 'fenced_code']
 FLATPAGES_EXTENSION = '.md'
 
 app = Flask(__name__)
