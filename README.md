@@ -58,6 +58,16 @@ Here's a table of key-values relevant to this project:
 * virtualenvwrapper
 
 ## USEFUL BASH COMMANDS
+Install pipenv for local user:
+```sh
+$ pip3 install --user pipenv
+```
+
+If pipenv not working, then ~/.local/bin needs to the PATH. Do this permanently by adding the following to ~/.profile:
+```sh
+export PATH=$PATH:~/.local/bin
+``` 
+
 Build environment:
 
 ```sh
