@@ -8,6 +8,6 @@ My favourite programming language is **Python**. Here is a snippet that I really
 ~~~python
 # Method to print the sum of the first n digits squared
 def sum_squares_of_first_digits(n):
-	return sum([number ** 2 for number in range(n)])
+	return sum(number ** 2 for number in range(n))
 ~~~
 
