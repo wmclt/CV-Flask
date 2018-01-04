@@ -1,6 +1,8 @@
 # CV-Flask
 
-This project is to create a website in which I can showcase my CV.
+This project is to create a *static* website in which I can showcase my CV. I use Flask as general framework, Flask-Flatpages to allow the content to be written in Markdown and automatically converted to html and css, and finally Frozen-Flask to be able to build the application by turning everything into static files. 
+
+The structure of the project makes a distinction between the templates, which encode the structure of webpages in HTML + Jinja2 (a templating language), and the pages, which contain the content of webpages written in Markdown language. 
 
 ## IDEA
 
@@ -18,17 +20,19 @@ Here's a table of key-values relevant to this project:
 | inspiration CSS | [Twilio](https://www.twilio.com/) |
 | free CSS templates | [Templated](https://templated.co/) |
 | free CSS templates | [html5up](https://html5up.net/) |
-| inspiration Flask | [Explore Flask](https://exploreflask.com/en/latest/) |
+| background Flask | [Explore Flask](https://exploreflask.com/en/latest/) |
 
 ## TODOs
 * List of requirements
-* Read *Explore Flask* (70 pages)
 * Make design for website
 * Future:
     * Containerisation (Kubernetes/Docker)
     * Compile CSS beforehand with e.g. LESS
     * Deploy on Raspberry Pi or host
 	* Blogging page to write about discoveries?
+
+## DONE
+* Read *Explore Flask* (70 pages)
 
 ## DESIGN
 * Landing page
@@ -54,8 +58,7 @@ Here's a table of key-values relevant to this project:
 
 ## REQUIRED
 * Python 3
-* virtualenv
-* virtualenvwrapper
+* pipenv + dependencies
 
 ## USEFUL BASH COMMANDS
 Install pipenv for local user:
