@@ -21,13 +21,17 @@ Here's a table of key-values relevant to this project:
 | free CSS templates | [Templated](https://templated.co/) |
 | free CSS templates | [html5up](https://html5up.net/) |
 | background Flask | [Explore Flask](https://exploreflask.com/en/latest/) |
+| web assets mgmt | [Flask-Assets](http://flask-assets.readthedocs.io/en/latest/) |
+| web assets mgmt | [Flash-Webpack](https://github.com/nickjj/flask-webpack) |
+| CSS management | [Explore Flask: Static files](http://exploreflask.com/en/latest/static.html) |
 
 ## TODOs
 * List of requirements
 * Make design for website
 * Future:
     * Containerisation (Kubernetes/Docker)
-    * Compile CSS beforehand with e.g. LESS
+	* Use CSS library
+    * Compile CSS beforehand with e.g. LESS 
     * Deploy on Raspberry Pi or host
 	* Blogging page to write about discoveries?
 
