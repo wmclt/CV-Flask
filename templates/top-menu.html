@@ -1,9 +1,8 @@
-<div class="pure-menu pure-menu-horizontal">
-    <a href="#" class="pure-menu-heading pure-menu-link">BRAND</a>
+<div class="pure-menu pure-menu-horizontal top-menu">
+    <a href="{{ url_for("index") }}" class="pure-menu-heading pure-menu-link top-menu">MySite</a>
     <ul class="pure-menu-list">
         {% for page in g.pages %}
-        page.title
-        <!-- <li class="pure-menu-item"><a href="{{ url_for(" page ", path=page.path) }}" class="pure-menu-link">{{ page.title }}</a></li> -->
+        <li class="pure-menu-item"><a href="{{ url_for("page", path=page.path) }}" class="pure-menu-link top-menu">{{ page.title }}</a></li>
         {% endfor %}
     </ul>
 </div>

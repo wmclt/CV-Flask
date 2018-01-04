@@ -5,12 +5,12 @@
 	<meta charset="utf-8">
 	<title>M Y W E B S I T E</title>
 	<link rel="stylesheet" href="../static/style.css">
-	<link rel="styleshee" href="../static/lib/pure-min.css">
+	<link rel="stylesheet" href="../static/lib/pure-min.css">
 	<link rel="shortcut icon" href="../static/favicon.ico" ">
 </head>
 <body>
-    <!-- <h1><a href="{{ url_for( "index") }} ">My site</a></h1> -->
-	<div>
+	{% include 'top-menu.html' %}
+	<div class="textzone">
 		{% block content %}
 		<p>Default content to be displayed</p>
 		{% endblock content %}

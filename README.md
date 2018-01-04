@@ -18,12 +18,14 @@ Here's a table of key-values relevant to this project:
 | useful | [interactive markdown](http://dillinger.io/) |
 | inspiration CSS | [bootstrap](https://blackrockdigital.github.io/startbootstrap-freelancer/) |
 | inspiration CSS | [Twilio](https://www.twilio.com/) |
+| inspiration | [Nicolas Perriault](https://nicolas.perriault.net/code/) |
 | free CSS templates | [Templated](https://templated.co/) |
 | free CSS templates | [html5up](https://html5up.net/) |
 | background Flask | [Explore Flask](https://exploreflask.com/en/latest/) |
 | web assets mgmt | [Flask-Assets](http://flask-assets.readthedocs.io/en/latest/) |
 | web assets mgmt | [Flash-Webpack](https://github.com/nickjj/flask-webpack) |
 | CSS management | [Explore Flask: Static files](http://exploreflask.com/en/latest/static.html) |
+| Colour palettes | [Color-hex Palettes](http://www.color-hex.com/color-palettes/) |
 
 ## TODOs
 * List of requirements

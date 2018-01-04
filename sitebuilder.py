@@ -16,7 +16,9 @@ freezer = Freezer(app)
 
 @app.route('/')
 def index():
-    return render_template('index.html', pages=pages)
+    with app.app_context():
+        g.pages = pages
+        return render_template('index.html', pages=pages)
 
 @app.route('/tag/<string:tag>/')
 def tag(tag):
