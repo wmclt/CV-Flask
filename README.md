@@ -1,8 +1,8 @@
 # CV-Flask
 
-This project is to create a *static* website in which I can showcase my CV. I use Flask as general framework, Flask-Flatpages to allow the content to be written in Markdown and automatically converted to html and css, and finally Frozen-Flask to be able to build the application by turning everything into static files. 
+This project is to create a *static* website in which I can showcase my CV. I use Flask as minimalistic framework that allows to write very concisely web apps and plays nicely with a bunch libraries. Flask-Flatpages is one such library that allows to write content in Markdown and have it automatically converted to the equivalent html. Finally, Frozen-Flask can be used to "build" static Flask applications, turning everything into a collection of static html/css files that can be put on a web server (Tomcat, python) without needing additional technologies. 
 
-The structure of the project makes a distinction between the templates, which encode the structure of webpages in HTML + Jinja2 (a templating language), and the pages, which contain the content of webpages written in Markdown language. 
+The structure of the project makes a distinction between **templates**, which encode the **structure** of webpages in HTML + Jinja2 (a templating language), and the **pages**, which contain the **content** of webpages written in Markdown language. Templates are filled with the content of pages, hence there should always be more pages than templates.
 
 ## IDEA
 
@@ -18,7 +18,6 @@ Here's a table of key-values relevant to this project:
 | useful | [interactive markdown](http://dillinger.io/) |
 | inspiration CSS | [bootstrap](https://blackrockdigital.github.io/startbootstrap-freelancer/) |
 | inspiration CSS | [Twilio](https://www.twilio.com/) |
-| inspiration | [Nicolas Perriault](https://nicolas.perriault.net/code/) |
 | free CSS templates | [Templated](https://templated.co/) |
 | free CSS templates | [html5up](https://html5up.net/) |
 | background Flask | [Explore Flask](https://exploreflask.com/en/latest/) |
@@ -26,6 +25,10 @@ Here's a table of key-values relevant to this project:
 | web assets mgmt | [Flash-Webpack](https://github.com/nickjj/flask-webpack) |
 | CSS management | [Explore Flask: Static files](http://exploreflask.com/en/latest/static.html) |
 | Colour palettes | [Color-hex Palettes](http://www.color-hex.com/color-palettes/) |
+| inspiration look | [Nicolas Perriault](https://nicolas.perriault.net/code/) |
+| inspiration look | [Charles Leifer](http://charlesleifer.com/blog/how-to-make-a-flask-blog-in-one-hour-or-less/) |
+| inspiration look | [NPR, though not blog](npr.org) |
+| inspiration look | [Flask blog](https://pythonhosted.org/Flask-Mail/) |
 
 ## TODOs
 * List of requirements
@@ -107,7 +110,7 @@ Alternatively, run Flask server within virtual environment:
 $ pipenv run python3 sitebuilder.py run
 ```
 
-Build project:
+Build project (=create static html/css files):
 
 ```sh
 $ python3 sitebuilder.py build

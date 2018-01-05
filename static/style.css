@@ -1,5 +1,5 @@
 html {
-	background: rgba(133,54,69)
+	background:rgba(221,103,46);
 }
 .textzone {
 	width: 80%;
@@ -13,6 +13,10 @@ img {
 	margin-right: auto;
 }
 
+a {
+	color: rgba(133,54,69);	
+}
+
 a.top-menu {
 	color: rgba(219,81,58)
 }
@@ -21,9 +25,6 @@ div.top-menu {
 	background-color: rgba(58,55,92,1); 
 }
 
-a {
-	color:rgba(221,103,46);
-}
 
 /* 
 (58,55,92)		blue
